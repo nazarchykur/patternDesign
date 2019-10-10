@@ -8,6 +8,7 @@ import com.company.creational.abstract_method.factories.WindowsFactory;
 public class Demo {
 
     private static Application configureApplication(){
+
         Application app;
         GUIFactory factory;
 
