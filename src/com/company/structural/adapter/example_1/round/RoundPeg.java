@@ -1,4 +1,4 @@
-package com.company.structural.adapter.round;
+package com.company.structural.adapter.example_1.round;
 
 /**
  * RoundPegs are compatible with RoundHoles.

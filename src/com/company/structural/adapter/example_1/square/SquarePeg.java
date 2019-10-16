@@ -1,4 +1,4 @@
-package com.company.structural.adapter.square;
+package com.company.structural.adapter.example_1.square;
 
 /**
  * SquarePegs are not compatible with RoundHoles (they were implemented by
