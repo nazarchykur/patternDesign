@@ -10,6 +10,8 @@ public class LockedState extends State {
         player.setPlaying(false);
     }
 
+    // При розблокуванні програвача із заблокованими клавішами,
+    // він може прийняти один з двох станів.
     @Override
     public String onLock() {
         if (player.isPlaying()) {
@@ -26,11 +28,13 @@ public class LockedState extends State {
         return "Ready";
     }
 
+    // Нічого не робити.
     @Override
     public String onNext() {
         return "Locked...";
     }
 
+    // Нічого не робити.
     @Override
     public String onPrevious() {
         return "Locked...";

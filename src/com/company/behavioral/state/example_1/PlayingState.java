@@ -1,5 +1,6 @@
 package com.company.behavioral.state.example_1;
 
+// Конкретні стани реалізують методи загального стану по-своєму.
 public class PlayingState extends State {
 
     PlayingState(Player player) {

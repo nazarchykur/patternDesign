@@ -3,6 +3,7 @@ package com.company.behavioral.state.example_1;
 import java.util.ArrayList;
 import java.util.List;
 
+// Програвач виступає в ролі контексту.
 public class Player {
     private State state;
     private boolean playing = false;

@@ -3,6 +3,11 @@ package com.company.behavioral.state.example_1;
 /**
  * Common interface for all states.
  */
+
+// Контекст передає себе до конструктора стану, щоб стан міг
+// звертатися до його даних та методів у майбутньому, якщо
+// буде потрібно.
+
 public abstract class State {
     Player player;
 
